@@ -1,0 +1,57 @@
+@font-face {
+  font-family: euro;
+  src: url(_fonts/euro.woff);
+}
+h2, h3, h4{font-family: euro;}
+.SPEARS h3{font-size:14px;}
+.SPEARS h4{font-size:11px;}
+.SPEARS .logo{background-image:url(_img/logo-spears.png);background-size: 25%;background-position: 12px;}
+.EXPERT h3{font-size:11px;}
+.EXPERT h4{font-size:14px;}
+.EXPERT .logo{background-image:url(_img/logo-expert.png);background-size: 50%;background-position: center 36px;}
+.CONTACTS{font-size: 16px;}
+.CONTACTS .button{
+	font-family: euro;font-size:14px;
+background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(129,129,129,0.5) 50%, rgba(2,2,2,0.3) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(50%,rgba(129,129,129,0.5)), color-stop(100%,rgba(2,2,2,0.3))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(129,129,129,0.5) 50%,rgba(2,2,2,0.3) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(129,129,129,0.5) 50%,rgba(2,2,2,0.3) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(129,129,129,0.5) 50%,rgba(2,2,2,0.3) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(129,129,129,0.5) 50%,rgba(2,2,2,0.3) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#4d020202',GradientType=0 ); /* IE6-9 */
+}
+.CONTACTS .button:hover{background-color: rgba(177, 177, 177, 0.8);}
+
+.hl{background-color: #f5f5f5;}
+.hl_{background-color: silver;}
+.color-scarlet{color:#972b78;}
+.color-bordo{color:#4f3c4a;}
+.color-white{color:#fff;}
+.color-rose{color:#E087AB;}
+.color-silver{color:silver;}
+.bg-silver{background-color: #DDDDDD;}
+.transparent-2{
+background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(129,129,129,0) 50%, rgba(2,2,2,0.05) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(50%,rgba(129,129,129,0)), color-stop(100%,rgba(2,2,2,0.05))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(129,129,129,0) 50%,rgba(2,2,2,0.05) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(129,129,129,0) 50%,rgba(2,2,2,0.05) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(129,129,129,0) 50%,rgba(2,2,2,0.05) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(129,129,129,0) 50%,rgba(2,2,2,0.05) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#0d020202',GradientType=0 ); /* IE6-9 */
+}
+.QBLOGO .offset{padding-top:0px;}
+@media screen and (max-width: 1199px){
+.QBLOGO .offset{padding-top:6px;}
+}
+@media screen and (max-width: 1024px){
+.QBLOGO{height:auto;}
+.SPEARS{height:auto;}
+.EXPERT{height:auto;}
+.SPEARS .logo{background-size: 10%;}
+.EXPERT .logo{background-size: 18%;}
+}
+@media screen and (max-width: 768px){
+.SPEARS .logo{background-size: 20%;}
+.EXPERT .logo{background-size: 30%;}
+}
+
