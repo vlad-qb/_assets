@@ -101,6 +101,7 @@ border-radius: 6px;
 .bg-bl{background-position: top left;}
 .bg-tr{background-position: top right;}
 .bg-br{background-position: bottom right;}
+.bg-bl{background-position: bottom left;}
 .bg-cl{background-position: center left;}
 .bg-cr{background-position: center right;}
 /*sizes*/
