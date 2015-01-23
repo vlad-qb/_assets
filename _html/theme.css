@@ -19,7 +19,14 @@
 .bg-white{background-color: #fff;}
 .bg-violet{background-color: #463341;}
 .bg-rose{background-image:url("_img/rose-button.png");}
+.bg-rose-2{background-image:url("_img/rose-button-2.png");}
+.bg-silver-2{background-color: #fcfcfc;}
+.roseCircle{width:32px;height:32px;border-radius: 50%;background-image:url("_img/rose-button.png");}
+.tw{width:32px;height:32px;background-image:url("_img/icons/icon-tw.png");background-repeat: no-repeat;background-position: center center;}
+.fb{width:32px;height:32px;background-image:url("_img/icons/icon-fb.png");background-repeat: no-repeat;background-position: center center;}
+.ln{width:32px;height:32px;background-image:url("_img/icons/icon-ln.png");background-repeat: no-repeat;background-position: center center;}
 .QBLOGO .offset{padding-top:0px;}
+.footer-bg{background-image:url("_img/bg-footer.png");}
 h2, h3, h4{font-family: euro;}
 .SPEARS h3{font-size:14px;}
 .SPEARS h4{font-size:11px;}
@@ -62,12 +69,17 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 .INFOGRAPH .tall p{margin: 20px 16px 0;}
 .INFOGRAPH .short h2{margin: 24px 16px 0;}
 .RISKS li{margin-left: 68px;}
+.FORM .header{font-size: 16px;}
+.FORM input{width: 256px;}
+.FORM input{border-top:1px solid #D8D8D8;border-left: none;border-right: none;border-bottom: none;}
 @media screen and (max-width: 1199px){
 .QBLOGO .offset{padding-top:6px;}
 .INFOGRAPH{text-align: center;}
 .INFOGRAPH .tall .thumb{float:none;margin-left:0px;}
 .INFOGRAPH .tall h2{margin: 4px 16px 0 16px;}
 .INFOGRAPH .tall p{margin: 12px 16px 0 16px;}
+.FORM .header{font-size: 12px;padding: 6px 0;}
+.FORM input{width: 208px;}
 }
 @media screen and (max-width: 1024px){
 .QBLOGO{height:auto;}
@@ -85,6 +97,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 .INFOGRAPH .short h2{margin: 24px 16px 0;}
 .RISKS h2{font-size: 20px;}
 .METHODS h2{font-size: 20px;}
+.FORM .header{font-size: 14px;}
+.FORM input{width:100%;padding: 0;text-align: center;}
 }
 @media screen and (max-width: 768px){
 .SPEARS .logo{background-size: 20%;}
