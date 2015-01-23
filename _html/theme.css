@@ -2,6 +2,24 @@
   font-family: euro;
   src: url(_fonts/euro.woff);
 }
+.euro{font-family: euro;}
+.verdana{font-family: verdana;}
+.hl{background-color: #f5f5f5;}
+.hl_{background-color: silver;}
+.color-scarlet{color:#972b78;}
+.color-bordo{color:#4f3c4a;}
+.color-brown{color:#391212;}
+.color-white{color:#fff;}
+.color-rose{color:#E087AB;}
+.color-rose-2{color:#d676ab;}
+.color-rose-3{color:#c467a9;}
+.color-silver{color:#a2a2a2;}
+.bg-silver{background-color: #DDDDDD;}
+.color-grey {color: #757575;}
+.bg-white{background-color: #fff;}
+.bg-violet{background-color: #463341;}
+.bg-rose{background-image:url("_img/rose-button.png");}
+.QBLOGO .offset{padding-top:0px;}
 h2, h3, h4{font-family: euro;}
 .SPEARS h3{font-size:14px;}
 .SPEARS h4{font-size:11px;}
@@ -21,15 +39,6 @@ background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(129,129,129
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#4d020202',GradientType=0 ); /* IE6-9 */
 }
 .CONTACTS .button:hover{background-color: rgba(177, 177, 177, 0.8);}
-
-.hl{background-color: #f5f5f5;}
-.hl_{background-color: silver;}
-.color-scarlet{color:#972b78;}
-.color-bordo{color:#4f3c4a;}
-.color-white{color:#fff;}
-.color-rose{color:#E087AB;}
-.color-silver{color:silver;}
-.bg-silver{background-color: #DDDDDD;}
 .transparent-2{
 background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(129,129,129,0) 50%, rgba(2,2,2,0.05) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(50%,rgba(129,129,129,0)), color-stop(100%,rgba(2,2,2,0.05))); /* Chrome,Safari4+ */
@@ -39,9 +48,26 @@ background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(129,129,129,0) 
 background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(129,129,129,0) 50%,rgba(2,2,2,0.05) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#0d020202',GradientType=0 ); /* IE6-9 */
 }
-.QBLOGO .offset{padding-top:0px;}
+
+.LEFT-SIDE-2 .thumb{width:143px;margin: auto;}
+.RIGHT-SIDE .Control .prev{background-image:url('_img/back.png');}
+.RIGHT-SIDE .Control .next{background-image:url('_img/forward.png');}
+.RIGHT-SIDE .Control-2 .prev{background-image:url('_img/back.png');}
+.RIGHT-SIDE .Control-2 .next{background-image:url('_img/forward.png');}
+.RIGHT-SIDE .dotted-1{background-image:url('_img/infograph/dotted-1.png');}
+.RIGHT-SIDE .dotted-2{background-image:url('_img/infograph/dotted-2.png');}
+
+.INFOGRAPH .tall .thumb{float:left;margin-left:12px;}
+.INFOGRAPH .tall h2{margin: 20px 16px 0;}
+.INFOGRAPH .tall p{margin: 20px 16px 0;}
+.INFOGRAPH .short h2{margin: 24px 16px 0;}
+.RISKS li{margin-left: 68px;}
 @media screen and (max-width: 1199px){
 .QBLOGO .offset{padding-top:6px;}
+.INFOGRAPH{text-align: center;}
+.INFOGRAPH .tall .thumb{float:none;margin-left:0px;}
+.INFOGRAPH .tall h2{margin: 4px 16px 0 16px;}
+.INFOGRAPH .tall p{margin: 12px 16px 0 16px;}
 }
 @media screen and (max-width: 1024px){
 .QBLOGO{height:auto;}
@@ -49,9 +75,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 .EXPERT{height:auto;}
 .SPEARS .logo{background-size: 10%;}
 .EXPERT .logo{background-size: 18%;}
+.LEFT-SIDE-2 .thumb{width:143px;float: left;margin-top:48px;margin-right:24px; }
+.LEFT-SIDE-2 p{margin-left:143px;}
+.LEFT-SIDE-2 h2,h3{text-align: left;}
+.INFOGRAPH{text-align: center;}
+.INFOGRAPH .tall .thumb{float:none;margin-left:0px;}
+.INFOGRAPH .tall h2{margin: 20px 16px 0;}
+.INFOGRAPH .tall p{margin: 20px 16px 0;}
+.INFOGRAPH .short h2{margin: 24px 16px 0;}
+.RISKS h2{font-size: 20px;}
+.METHODS h2{font-size: 20px;}
 }
 @media screen and (max-width: 768px){
 .SPEARS .logo{background-size: 20%;}
 .EXPERT .logo{background-size: 30%;}
+.LEFT-SIDE-2 .thumb{width:143px;float: none;margin: auto;}
+.LEFT-SIDE-2 p{margin-left:0px;}
+.LEFT-SIDE-2 h2,h3{text-align: center;}
 }
 
