@@ -104,6 +104,8 @@ border-radius: 6px;
 .bg-bl{background-position: bottom left;}
 .bg-cl{background-position: center left;}
 .bg-cr{background-position: center right;}
+.contain{background-size: contain;}
+.cover{background-size: cover;}
 /*sizes*/
 .w025{width: 8px;}
 .w05{width: 16px;}
