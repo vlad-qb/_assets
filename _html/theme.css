@@ -18,8 +18,14 @@
 .color-grey {color: #757575;}
 .bg-white{background-color: #fff;}
 .bg-violet{background-color: #463341;}
+/*
 .bg-rose{background-image:url("_img/rose-button.png");}
-.bg-rose-2{background-image:url("_img/rose-button-2.png");}
+.bg-rose-2{background-image:url("_img/rose-button-2.png");transition:0.5s;}
+*/
+.bg-rose{background-color:#A01A75;transition:0.5s;}
+.bg-rose:hover{background-color:#463341;}
+.bg-rose-2{background-color:#A01A75;transition:0.5s;}
+.bg-rose-2:hover{background-color:#463341;}
 .bg-silver-2{background-color: #fcfcfc;}
 .roseCircle{width:32px;height:32px;border-radius: 50%;background-image:url("_img/rose-button.png");}
 .tw{width:32px;height:32px;background-image:url("_img/icons/icon-tw.png");background-repeat: no-repeat;background-position: center center;}
@@ -36,17 +42,10 @@ h2, h3, h4{font-family: euro;}
 .EXPERT h4{font-size:14px;}
 .EXPERT .logo{background-image:url(_img/logo-expert.png);background-size: 50%;background-position: center 36px;}
 .CONTACTS{font-size: 16px;}
-.CONTACTS .button{
-	font-family: euro;font-size:14px;
-background: -moz-linear-gradient(top, rgba(255,255,255,0.5) 0%, rgba(129,129,129,0.5) 50%, rgba(2,2,2,0.3) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0.5)), color-stop(50%,rgba(129,129,129,0.5)), color-stop(100%,rgba(2,2,2,0.3))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(129,129,129,0.5) 50%,rgba(2,2,2,0.3) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(129,129,129,0.5) 50%,rgba(2,2,2,0.3) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top, rgba(255,255,255,0.5) 0%,rgba(129,129,129,0.5) 50%,rgba(2,2,2,0.3) 100%); /* IE10+ */
-background: linear-gradient(to bottom, rgba(255,255,255,0.5) 0%,rgba(129,129,129,0.5) 50%,rgba(2,2,2,0.3) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80ffffff', endColorstr='#4d020202',GradientType=0 ); /* IE6-9 */
-}
-.CONTACTS .button:hover{background-color: rgba(177, 177, 177, 0.8);}
+.CONTACTS .button{font-family: euro;font-size:14px;transition: 0.5s;background-color: #463341;}
+.CONTACTS .button:hover{background-color: rgba(164, 98, 138, 1);}
+.CHARTS .button{font-family: euro;font-size:16px;background-color: rgba(160, 26, 117, 1);transition:0.5s;}
+.CHARTS .button:hover{background-color: rgba(70, 51, 65, 1);}
 .transparent-2{
 background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(129,129,129,0) 50%, rgba(2,2,2,0.05) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(50%,rgba(129,129,129,0)), color-stop(100%,rgba(2,2,2,0.05))); /* Chrome,Safari4+ */
@@ -87,7 +86,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 .QBLOGO{height:auto;}
 .SPEARS{height:auto;}
 .EXPERT{height:auto;}
-.SPEARS .logo{background-size: 10%;background-position: top center;padding: 64px 0 0 0 ;}
+.SPEARS .logo{background-size: 10%;background-position: top center;padding: 72px 0 0 0 ;}
 .SPEARS h3, .SPEARS h4{padding-left: 0;}
 .EXPERT .logo{background-size: 18%;}
 .LEFT-SIDE-2 .thumb{width:143px;float: left;margin-top:48px;margin-right:24px; }
@@ -102,6 +101,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 .METHODS h2{font-size: 20px;}
 .FORM .header{font-size: 14px;}
 .FORM input{width:100%;padding: 0;text-align: center;}
+.CHARTS .button{font-size: 14px;text-transform:lowercase;}
 }
 @media screen and (max-width: 768px){
 .SPEARS .logo{background-size: 20%;}

@@ -51,3 +51,7 @@ table {
 strong{
     font-weight: bold;
 }
+input, textarea {
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+}
