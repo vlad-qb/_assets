@@ -72,6 +72,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 .FORM .header{font-size: 16px;}
 .FORM input{width: 256px;}
 .FORM input{border-top:1px solid #D8D8D8;border-left: none;border-right: none;border-bottom: none;}
+.fs18-m12{font-size: 18px;line-height: 18px;}
 @media screen and (max-width: 1199px){
 .QBLOGO .offset{padding-top:6px;}
 .INFOGRAPH{text-align: center;}
@@ -102,12 +103,21 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 .FORM .header{font-size: 14px;}
 .FORM input{width:100%;padding: 0;text-align: center;}
 .CHARTS .button{font-size: 14px;text-transform:lowercase;}
+.EY .offset{ margin-left:16px ;margin-right:16px;}
 }
 @media screen and (max-width: 768px){
 .SPEARS .logo{background-size: 20%;}
 .EXPERT .logo{background-size: 30%;}
+.LEFT-SIDE p{font-size: 15px;line-height: 20px;}
+.RIGHT-SIDE p{font-size: 15px;line-height: 20px;}
+.RISKS ul{font-size: 15px;line-height: 20px;}
 .LEFT-SIDE-2 .thumb{width:143px;float: none;margin: auto;}
 .LEFT-SIDE-2 p{margin-left:0px;}
 .LEFT-SIDE-2 h2,h3{text-align: center;}
+.FORM .header{font-size: 12px;padding: 6px 0;text-transform:none;}
+.INFOGRAPH .offset{margin-left: 12px;margin-right: 12px;}
+.INFOGRAPH img{float: none;}
+.DISCLAIMER{font-size: 12px;line-height: 15px;}
+.EY .offset{ margin-left:16px ;margin-right:16px;}
 }
 
