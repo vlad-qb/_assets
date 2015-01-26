@@ -25,6 +25,7 @@
 .tw{width:32px;height:32px;background-image:url("_img/icons/icon-tw.png");background-repeat: no-repeat;background-position: center center;}
 .fb{width:32px;height:32px;background-image:url("_img/icons/icon-fb.png");background-repeat: no-repeat;background-position: center center;}
 .ln{width:32px;height:32px;background-image:url("_img/icons/icon-ln.png");background-repeat: no-repeat;background-position: center center;}
+.HEADER{border-bottom: 1px solid #f9f9f9;}
 .QBLOGO .offset{padding-top:0px;}
 .footer-bg{background-image:url("_img/bg-footer.png");}
 h2, h3, h4{font-family: euro;}
@@ -82,10 +83,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 .FORM input{width: 208px;}
 }
 @media screen and (max-width: 1024px){
+.transparent-2{background: none;}
 .QBLOGO{height:auto;}
 .SPEARS{height:auto;}
 .EXPERT{height:auto;}
-.SPEARS .logo{background-size: 10%;}
+.SPEARS .logo{background-size: 10%;background-position: top center;padding: 64px 0 0 0 ;}
+.SPEARS h3, .SPEARS h4{padding-left: 0;}
 .EXPERT .logo{background-size: 18%;}
 .LEFT-SIDE-2 .thumb{width:143px;float: left;margin-top:48px;margin-right:24px; }
 .LEFT-SIDE-2 p{margin-left:143px;}
