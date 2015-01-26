@@ -104,6 +104,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', e
 .FORM input{width:100%;padding: 0;text-align: center;}
 .CHARTS .button{font-size: 14px;text-transform:lowercase;}
 .EY .offset{ margin-left:16px ;margin-right:16px;}
+.MODAL-FORM .offset{margin: 4px;}
 }
 @media screen and (max-width: 768px){
 .SPEARS .logo{background-size: 20%;}

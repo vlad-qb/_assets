@@ -9,6 +9,8 @@
     <link href="_css/grid.css" rel="stylesheet" media="screen">
     <link href="_css/common.css" rel="stylesheet" media="screen">
     <link href="_css/push_animation.css" rel="stylesheet" media="screen">
+    <link href="arcticmodal/jquery.arcticmodal-2.css" rel="stylesheet" media="screen">
+    <link href="arcticmodal/themes/custom-2.css" rel="stylesheet" media="screen">
     <link href="theme.css" rel="stylesheet" media="screen">
 	<style type="text/css">
 	body {
@@ -19,7 +21,82 @@
 <body
 	data-0="background-position:center 0px;" 
 	data-100000="background-position:center -50000px;">
-		<!--HEADER-->
+	<!--MODAL-->
+	<div class="[[ MODAL-FORM ]]">
+    	<div class="cl">&nbsp;</div>
+        <div class="g-hidden">
+            <div class="box-modal" id="modal">
+                <div class="box-modal_close arcticmodal-close">&nbsp;</div>
+		<!--FORM-->
+		<div class="[ FORM MODAL-FORM ][ center ][ bg-white ][ pt1 pb1 mb1 ]">
+			<div class="[ header ][ col-4-2 l ][ pt075 pb075 ][ euro color-rose lh36 uppercase ]">
+				<div class="[ ml05 mr05 ]">
+					В какой валюте лучше размещать накопления?<img src="_img/arrow-circle.png" class="r no-tablet mt025">
+				</div>
+			</div>
+			<div class="[ header ][ col-4-2 l ][ pt075 pb075 ][ euro color-silver lh36 uppercase ]">
+				<div class="[ ml05 mr05 ]">
+					<span class="desktop desktop-960 tablet no-mobile">Оставьте заявку
+					 и наши специалисты с Вами свяжутся!</span>
+				</div>
+			</div>
+			<!--  -->
+			<div class="cl">&nbsp;</div>
+			<!--  -->
+			<div class="[ bg-white ]">
+				<div class="[ col-4-1 l ]">
+					<div class="[ bg-white ][ pt05 pb05 ]">
+						<div class="[ offset ][ center ][ ml05 mr05 ]">
+							<input 
+								type="text"
+								name="name"
+								class="[ hg2 pl05 pr05 ][ verdana bg-silver-2 color-scarlet hl48 fs16 ]"
+								placeholder="Ваше имя *">
+						</div>
+					</div>
+				</div>
+				<div class="[ col-4-1 l ]">
+					<div class="[ pt05 pb05 ]">
+						<div class="[ offset ][ ml05 mr05 ]">
+							<input 
+								type="text"
+								name="name"
+								class="[ hg2 pl05 pr05 ][ verdana bg-silver-2 color-scarlet hl48 fs16 ]"
+								placeholder="Ваш e-mail *">
+						</div>
+					</div>
+				</div>
+				<div class="[ col-4-1 l ]">
+					<div class="[ pt05 pb05 ]">
+						<div class="[ offset ][ hg2 hl48 fs24 ][ ml05 mr05 ]">
+							<input 
+								type="text"
+								name="name"
+								class="[ hg2 pl05 pr05 ][ verdana bg-silver-2 color-silver hl48 fs16 ]"
+								placeholder="Ваш телефон">
+						</div>
+					</div>
+				</div>
+				<div class="[ col-4-1 l ]">
+					<div class="[ pt05 pb05 ]">
+						<div class="[ offset ][ hg2 hl48 ][ ml05 mr05 ]">
+							<input 
+								type="button"
+								value="ОТПРАВИТЬ ЗАЯВКУ"
+								style="border:none;"
+								class="w100 hg2 verdana bg-rose-2 color-white hl48 fs14 cp"
+								placeholder="Ваше имя *">
+						</div>
+					</div>
+				</div>
+				<div class="cl">&nbsp;</div>
+			</div>
+			<div class="cl">&nbsp;</div>
+		</div>
+            </div>
+        </div>
+    </div>
+	<!--HEADER-->
 	<div class="[ HEADER ][ bg-white ]">
 		<div class="[ col auto ][ center ]">
 			<div class="[ QBLOGO ][ col-4-1 l hg4 pt05 ]">
@@ -54,7 +131,7 @@
 				<div class="[ offset ][ mt075 mb025 ml025 mr025 ]">
 					<h2 class="color-scarlet">+7 (495) 988 98 21</h2>
 					<div class="button color-white br-2 lh36 mt05 cp ls-1">
-						<div class="push_animation">заказать консультацию</div>
+						<div class="modal-open push_animation">заказать консультацию</div>
 					</div>
 				</div>
 			</div>
@@ -338,7 +415,7 @@
 		<div class="[ col auto ]">
 			<div class="[ CHARTS ][ col-4-4 l hg4 pt05 ][ center ]">
 				<div class="[ offset ][ mt075 mb025 ml025 mr025 ]">
-					<div class="[ button ] [ color-white br-2 lh48 fs24 mt05 cp uppercase ]">
+					<div class="[ button modal-open ] [ color-white br-2 lh48 fs24 mt05 cp uppercase ]">
 						<div>узнать о защите от курсовых изменений</div>
 					</div>
 				</div>
@@ -346,7 +423,7 @@
 		</div>
 		<div class="cl hg1">&nbsp;</div>
 		<!--FORM-->
-<div class="[ FORM ][ col auto ][ center ][ bg-white ][ pt1 pb1 mb1 ]">
+		<div class="[ FORM ][ col auto ][ center ][ bg-white ][ pt1 pb1 mb1 ]">
 			<div class="[ header ][ col-4-2 l ][ pt075 pb075 ][ euro color-rose lh36 uppercase ]">
 				<div class="[ ml05 mr05 ]">
 					В какой валюте лучше размещать накопления?<img src="_img/arrow-circle.png" class="r no-tablet mt025">
@@ -456,6 +533,7 @@
 <script src="_js/slider-2.js" type="text/javascript"></script>
 <script type="text/javascript" src="_js/skrollr.min.js"></script>
 <script type="text/javascript" src="_js/modernizr.js"></script>
+<script src="arcticmodal/jquery.arcticmodal.js"></script>
 <script type="text/javascript">
 $( document ).ready(function() {
 	if (Modernizr.touch) {
@@ -470,7 +548,7 @@ $( document ).ready(function() {
 </script>
 <script>
 jQuery( document ).ready(function() {
-	//$('#modal').arcticmodal();
+	$(".modal-open").click(function(){ $('#modal').arcticmodal(); })
 	$().H2Slider({
 		slider:'.Slider',
 		buttons:'.Control',

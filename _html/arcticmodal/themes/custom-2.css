@@ -1,0 +1,28 @@
+.box-modal {
+	position: relative;
+	/*width: 500px;*/
+	padding: 0px;
+	background: #ececec;
+	color: #3c3c3c;
+	font: 14px/18px Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+	box-shadow: 0 0 0 6px rgba(153, 153, 153, .3);
+	border-radius: 6px;
+}
+.box-modal_close { 
+	width: 25px;
+	height: 25px;
+	background-image: url(../../arcticmodal/close-small.png);
+	position: absolute; right: -15px; top: -15px; font-size: 11px; line-height: 15px; color: #999; cursor: pointer; }
+/*.box-modal_close img { width: 90%;height:90%;}
+.box-modal_close img:hover { width: 100%;height:100%;}*/
+.box-modal_close:hover {
+background-position: 0 25px;
+}
+
+/* global */
+.g-hidden { display: none; }
+.g-line { zoom: 1; }
+.g-line:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* layouts */
+/*.l-container { width: 720px; padding: 0 40px; margin: 0 auto; }*/
