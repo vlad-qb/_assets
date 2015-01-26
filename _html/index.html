@@ -9,9 +9,16 @@
     <link href="_css/grid.css" rel="stylesheet" media="screen">
     <link href="_css/common.css" rel="stylesheet" media="screen">
     <link href="theme.css" rel="stylesheet" media="screen">
+	<style type="text/css">
+	body {
+		background-image:url(_img/body.jpg);
+	}
+	</style>
     </head>
-<body>
-	<div class="container hl">
+<body
+	data-0="background-position:center 0px;" 
+	data-100000="background-position:center -50000px;">
+	<div class="container">
 		<!--HEADER-->
 		<div class="[ HEADER ][ col auto ][ center ]">
 			<div class="[ QBLOGO ][ col-4-1 l hg4 pt05 pb05 ]">
@@ -473,6 +480,12 @@
 	</div>
 <script src="_js/jquery.min.js" type="text/javascript"></script>
 <script src="_js/slider-2.js" type="text/javascript"></script>
+<script type="text/javascript" src="_js/skrollr.min.js"></script>
+<script type="text/javascript">
+	skrollr.init({
+		forceHeight: false
+	});
+</script>
 <script>
 jQuery( document ).ready(function() {
 	//$('#modal').arcticmodal();
