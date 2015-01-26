@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>QB Finance - Защита рубля</title>
+    <link href="_css/reset.css" rel="stylesheet" media="screen">
+    <link href="_css/grid.css" rel="stylesheet" media="screen">
+    <link href="_css/common.css" rel="stylesheet" media="screen">
+    <link href="arcticmodal/jquery.arcticmodal.css" rel="stylesheet" media="screen">
+    <link href="arcticmodal/themes/custom-1.css" rel="stylesheet" media="screen">
+    <link href="theme.css" rel="stylesheet" media="screen">
+    </head>
+<body>
+	<div class="container">
+		<div class="[ HEADER ][ col auto ][ center ]">
+			<div class="[ QBLOGO ][ col-4-1 l hg4 pt05 pb05 ]">
+				<div class="[ offset ][ mt05 mb025 ml025 mr025 ][ no-desktop no-desktop-960 tablet mobile ]">
+					<img src="_img/logo-qb-l.png" class="w100">
+				</div>
+				<div class="[ offset ][ mt05 mb025 ml025 mr025 ][ desktop desktop-960 no-tablet no-mobile ]">
+					<img src="_img/logo-qb-s.png" class="w100">
+				</div>
+			</div>
+			<div class="[ SPEARS ][ col-4-1 l hg4 pt05 pb05 ]">
+				<div class="[ offset logo ][ mt05 mb025 ml025 mr025 nr ]">
+					<div class="transparent-2 hg3 mt025 mb025 br-2">
+						<div class="[ offset ]">
+							<h3 class="lh30 color-white pl2 center" style="text-indent: 12px;"><span class="color-scarlet">Spear's Awards 2014</span></h3>
+							<h4 class="lh18 color-bordo pl2">«<span style="color:f5f5f5;">Лучшая инвестиционная<br></span> компания года»</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="[ EXPERT ][ col-4-1 l hg4 pt05 pb05 ]">
+				<div class="[ offset logo ][ mt05 mb025 ml025 mr025 nr ]">
+					<div class="transparent-2 hg3 mt025 mb025 br-2">
+						<div class="[ offset ]">
+							<h3 class="lh30 inline color-bordo">Рейтинг надежности</h3>
+							<h4 class="lh30 inline color-scarlet">уровень А</h4>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="[ CONTACTS ][ col-4-1 l hg4 pt05 pb05 ]">
+				<div class="[ offset ][ mt075 mb025 ml025 mr025 ]">
+					<h2 class="color-scarlet">+7 (495) 988 98 21</h2>
+					<div id="modal-open" class="button push color-white br-2 lh36 mt05 cp ls-1">
+						заказать консультацию
+					</div>
+				</div>
+			</div>
+			<div class="cl">&nbsp;</div>
+		</div>
+	</div>
+	<div class="[[ MODAL-FORM ]]">
+    	<div class="cl">&nbsp;</div>
+        <div class="g-hidden">
+            <div class="box-modal" id="modal">
+                <div class="box-modal_close arcticmodal-close">&nbsp;</div>
+            </div>
+        </div>
+    </div>
+<script src="_js/jquery.min.js" type="text/javascript"></script>
+<script src="arcticmodal/jquery.arcticmodal.js"></script>
+<script>
+jQuery( document ).ready(function() {
+	$("#modal-open").click(function(){ $('#modal').arcticmodal(); })
+});
+</script>
+</body>
